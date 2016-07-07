@@ -1,7 +1,7 @@
 from importData import Dataset
 import inference
-training = Dataset('wxb_pic/pic', '.jpg')
-testing = Dataset('wxb_pic/pic_test', '.jpg')
+training = Dataset('wxb_pic/yiwu', '.jpg')
+testing = Dataset('wxb_pic/pic', '.jpg')
 
 import tensorflow as tf
 
